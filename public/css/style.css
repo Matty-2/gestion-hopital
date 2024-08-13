@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('../images/img.jpg'); /* Remplacez par une image d'accueil réelle */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: rgb(12, 52, 161);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+section {
+    padding: 60px 0;
+    
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    background-color: #a5c5e6;
+    
+}
+.card:hover image {
+    
+    background-color: #5184b8;
+    transition:#0b72d8;
+    
+}
+
+#contact {
+    background-color: #e2e8ee;
+    padding: 50px 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #186abb;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
